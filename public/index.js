@@ -15,8 +15,6 @@ const getImage = async () => {
   const response = await fetch("/get_image");
   const { url } = await response.json();
 
-  console.log(url);
-
   const geeTileLayer = new ol.layer.Tile({
     source: new ol.source.XYZ({ url }),
   });
