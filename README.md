@@ -1,5 +1,7 @@
 A simple app that loads a Landsat image from Google Earth Engine into Open Layers.
 
+![Landsat image showing NDVI](public/ndvi.jpg?raw=true)
+
 ## How to run:
 
 `npm install && npm run start`
