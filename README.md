@@ -1,4 +1,4 @@
-A simple app that loads a Landsat image from Google Earth Engine into Open Layers.
+A simple app that loads a Landsat 8 image from Google Earth Engine into Open Layers. The visualization is the calculated NDVI for that image, with low values in red and high values is green.
 
 ![Landsat image showing NDVI](public/ndvi.jpg?raw=true)
 
